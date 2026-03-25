@@ -1,0 +1,11 @@
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsShared\bin\Debug\net10.0\TalentInsightsShared.deps.json
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsShared\bin\Debug\net10.0\TalentInsightsShared.dll
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsShared\bin\Debug\net10.0\TalentInsightsShared.pdb
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsShared\obj\Debug\net10.0\TalentInsightsShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsShared\obj\Debug\net10.0\TalentInsightsShared.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsShared\obj\Debug\net10.0\TalentInsightsShared.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsShared\obj\Debug\net10.0\TalentInsightsShared.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsShared\obj\Debug\net10.0\TalentInsightsShared.dll
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsShared\obj\Debug\net10.0\refint\TalentInsightsShared.dll
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsShared\obj\Debug\net10.0\TalentInsightsShared.pdb
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsShared\obj\Debug\net10.0\ref\TalentInsightsShared.dll

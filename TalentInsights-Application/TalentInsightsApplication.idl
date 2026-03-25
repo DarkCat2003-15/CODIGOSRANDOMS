@@ -1,0 +1,18 @@
+// TalentInsights-Application.idl: Origen IDL de TalentInsights-Application
+//
+
+// La herramienta MIDL procesa este archivo y
+// producir la biblioteca de tipos (TalentInsightsApplication.tlb) y el código de serialización.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(eb1ad8e3-c38d-46ee-86f5-36a04fd150dd),
+	version(1.0),
+]
+library TalentInsightsApplicationLib
+{
+	importlib("stdole2.tlb");
+};
+

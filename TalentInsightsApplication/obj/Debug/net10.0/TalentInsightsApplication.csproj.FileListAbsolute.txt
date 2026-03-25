@@ -1,0 +1,15 @@
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\bin\Debug\net10.0\TalentInsightsApplication.deps.json
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\bin\Debug\net10.0\TalentInsightsApplication.dll
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\bin\Debug\net10.0\TalentInsightsApplication.pdb
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\bin\Debug\net10.0\TalentInsightsShared.dll
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\bin\Debug\net10.0\TalentInsightsShared.pdb
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\obj\Debug\net10.0\TalentInsightsApplication.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\obj\Debug\net10.0\TalentInsightsApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\obj\Debug\net10.0\TalentInsightsApplication.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\obj\Debug\net10.0\TalentInsightsApplication.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\obj\Debug\net10.0\TalentInsightsApplication.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\obj\Debug\net10.0\TalentIn.EC2AEE0B.Up2Date
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\obj\Debug\net10.0\TalentInsightsApplication.dll
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\obj\Debug\net10.0\refint\TalentInsightsApplication.dll
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\obj\Debug\net10.0\TalentInsightsApplication.pdb
+C:\Users\Asus\OneDrive\Documentos\BOOTCAMP\backend\TalentInsights\TalentInsightsApplication\obj\Debug\net10.0\ref\TalentInsightsApplication.dll
