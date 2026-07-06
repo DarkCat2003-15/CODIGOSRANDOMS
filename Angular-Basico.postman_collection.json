@@ -1,0 +1,385 @@
+{
+	"info": {
+		"_postman_id": "34bb60c3-1b59-4d6d-b79e-ed5d5dec2847",
+		"name": "Angular-Basico",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18267893"
+	},
+	"item": [
+		{
+			"name": "USERS",
+			"item": [
+				{
+					"name": "CREATE USERS",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Luis\",\r\n    \"apellido\": \"Bravo\",\r\n    \"usuario\": \"lbravoa\",\r\n    \"correo\": \"lbravoa@satelcorp.net\",\r\n    \"clave\": \"clave_1\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlUsers}}",
+							"host": [
+								"{{urlUsers}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET USERS",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"usuario\":\"admin\",\r\n    \"clave\":\"Admin1236\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlUsers}}",
+							"host": [
+								"{{urlUsers}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE USER BY ID",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Luis Updated\",\r\n    \"apellido\": \"Bravo\",\r\n    \"usuario\": \"lbravoa\",\r\n    \"correo\": \"lbravoa@satelcorp.net\",\r\n    \"clave\": \"clave_1\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlUsers}}/3",
+							"host": [
+								"{{urlUsers}}"
+							],
+							"path": [
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE USER BY ID",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Luis Updated\",\r\n    \"apellido\": \"Bravo\",\r\n    \"usuario\": \"lbravoa\",\r\n    \"correo\": \"lbravoa@satelcorp.net\",\r\n    \"clave\": \"clave_1\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlUsers}}/3",
+							"host": [
+								"{{urlUsers}}"
+							],
+							"path": [
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PROFILES",
+			"item": [
+				{
+					"name": "CREATE PROFILES",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"descripcion\": \"Perfil prueba\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlPerfiles}}",
+							"host": [
+								"{{urlPerfiles}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET PROFILES",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"usuario\":\"admin\",\r\n    \"clave\":\"Admin1236\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlPerfiles}}",
+							"host": [
+								"{{urlPerfiles}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE PROFILE BY ID",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"descripcion\": \"Perfil prueba updated\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlPerfiles}}/3",
+							"host": [
+								"{{urlPerfiles}}"
+							],
+							"path": [
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE PROFILE BY ID",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Luis Updated\",\r\n    \"apellido\": \"Bravo\",\r\n    \"usuario\": \"lbravoa\",\r\n    \"correo\": \"lbravoa@satelcorp.net\",\r\n    \"clave\": \"clave_1\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{urlPerfiles}}/3",
+							"host": [
+								"{{urlPerfiles}}"
+							],
+							"path": [
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LOGIN",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\":\"admin\",\r\n    \"clave\":\"Admin1236\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlLogin}}",
+					"host": [
+						"{{urlLogin}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MENU",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\":\"admin\",\r\n    \"clave\":\"Admin1236\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlMenu}}",
+					"host": [
+						"{{urlMenu}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "env",
+			"value": "http://localhost:8080",
+			"type": "string"
+		},
+		{
+			"key": "url",
+			"value": "{{env}}/api/test/v1/angular",
+			"type": "string"
+		},
+		{
+			"key": "urlLogin",
+			"value": "{{url}}/autenticacion",
+			"type": "string"
+		},
+		{
+			"key": "urlMenu",
+			"value": "{{url}}/menu",
+			"type": "string"
+		},
+		{
+			"key": "urlUsers",
+			"value": "{{url}}/usuarios",
+			"type": "string"
+		},
+		{
+			"key": "urlPerfiles",
+			"value": "{{url}}/perfiles",
+			"type": "string"
+		}
+	]
+}

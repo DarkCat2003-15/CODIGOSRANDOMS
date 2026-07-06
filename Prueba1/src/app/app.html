@@ -1,0 +1,33 @@
+<div class="container">
+
+  @if (!loginCorrecto) {
+    <div class="card">
+      <h2>Login</h2>
+
+      <label>Usuario</label>
+      <input type="text" [(ngModel)]="usuario">
+
+      <label>Clave</label>
+      <input type="password" [(ngModel)]="clave">
+
+      <button (click)="iniciarSesion()">Iniciar sesión</button>
+
+      <p class="error">{{ mensaje }}</p>
+    </div>
+  }
+
+  @if (loginCorrecto && usuarioEncontrado) {
+    <div class="card">
+      <h2>Datos del usuario</h2>
+
+      <p><strong>ID:</strong> {{ usuarioEncontrado.id }}</p>
+      <p><strong>Nombre:</strong> {{ usuarioEncontrado.nombre }}</p>
+      <p><strong>Apellido:</strong> {{ usuarioEncontrado.apellido }}</p>
+      <p><strong>Usuario:</strong> {{ usuarioEncontrado.usuario }}</p>
+      <p><strong>Correo:</strong> {{ usuarioEncontrado.correo }}</p>
+
+      <button (click)="loginCorrecto = false">Cerrar sesión</button>
+    </div>
+  }
+
+</div>
